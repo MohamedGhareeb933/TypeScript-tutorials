@@ -14,4 +14,8 @@ export class Triangle extends Shape {
     public getInfo() :string  {
         return super.getInfo() + ` z = ${this._z}`;
     }
+
+    public multiplyAll() :number {
+        return this._x * this._y * this._z;
+    }
 }

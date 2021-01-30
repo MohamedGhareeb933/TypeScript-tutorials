@@ -32,6 +32,9 @@ var Triangle = /** @class */ (function (_super) {
     Triangle.prototype.getInfo = function () {
         return _super.prototype.getInfo.call(this) + (" z = " + this._z);
     };
+    Triangle.prototype.multiplyAll = function () {
+        return this._x * this._y * this._z;
+    };
     return Triangle;
 }(Shape_1.Shape));
 exports.Triangle = Triangle;

@@ -6,20 +6,6 @@ var Shape = /** @class */ (function () {
         this._x = _x;
         this._y = _y;
     }
-    Object.defineProperty(Shape.prototype, "x", {
-        get: function () {
-            return this._x;
-        },
-        enumerable: false,
-        configurable: true
-    });
-    Object.defineProperty(Shape.prototype, "y", {
-        get: function () {
-            return this._y;
-        },
-        enumerable: false,
-        configurable: true
-    });
     Shape.prototype.getInfo = function () {
         return "x = " + this._x + ", y = " + this._y;
     };
