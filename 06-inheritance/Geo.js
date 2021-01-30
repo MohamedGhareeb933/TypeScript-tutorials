@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Shape_1 = require("./Shape");
+var Triangle_1 = require("./Triangle");
+var myShape = new Shape_1.Shape(10, 5);
+var ShapeInfo = myShape.getInfo();
+console.log(ShapeInfo);
+var myTriangle = new Triangle_1.Triangle(10, 5, 6);
+var TriangleInfo = myTriangle.getInfo();
+console.log(TriangleInfo);
